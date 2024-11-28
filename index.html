@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>TEST</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Type a Number</title>
 </head>
 <body>
-     <p>Hello, world!</p>
+  <h1>Enter a Number</h1>
+  <form>
+    <label for="number">Enter a number (0 to 100):</label>
+    <input 
+      type="number" 
+      id="number" 
+      name="number" 
+      min="0" 
+      max="100" 
+      required 
+    >
+    <button type="submit">Submit</button>
+  </form>
 </body>
 </html>
