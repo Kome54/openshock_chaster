@@ -1,4 +1,3 @@
-"""
 Chaster → OpenShock Bridge
 ==========================
 Polls the Chaster API for lock events and forwards them as 
