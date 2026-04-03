@@ -25,18 +25,21 @@ Setup:
     CHASTER_TOKEN=''  'on the developer mode, need to create a aplication and within the aplication there a token menu
     
     CHASTER_LOCK_ID=''  'just the part of the link where there a bunch of characterers like this '694b4784agfdgdhgjho545fgdg5'
-    
+     
     OPENSHOCK_TOKEN=''  'go on openshock.app and generate a token on Api tokens
-        
-    'on shocker page, click the 3 dots in the shocker section, click edit and you can find the id, there 2 ways of inputing the first one supports only 1 collar, the second one each line supports 1 collar and you can add or remove extras in case you wanna multiples shockers working together'
+       
+      
+    OPENSHOCK_SHOCKER_ID = ''
     
-1   OPENSHOCK_SHOCKER_ID = ''
-2   OPENSHOCK_SHOCKER_ID = [  
+    or
+    
+    OPENSHOCK_SHOCKER_ID = [  
     "",
     "",
     ""
-  ]  
-  
+    ]  
+
+On openshock.app shocker page, click the 3 dots in the shocker section, click edit and you can find the id, there 2 ways of inputing the first one supports only 1 collar, the second one each line supports 1 collar and you can add or remove extras in case you wanna multiples shockers working together'  
   
 IF YOU WANNA MESS WITH THE SHOCKING BEHAVIOUR IS ALL ON 'def handle_event' as a bunch of if statments each one has its own logic that you can mess, look at a how it works and adapt for how you want to behave, creating new ones is simple just copy one elif already made and change event_type .
 
@@ -44,18 +47,18 @@ You can find the events list on:https://docs.chaster.app/api/reference/action-lo
 
 
 EXTRA: 
-IS POSSIBLE TO RUN ON YOUR ANDROID PHONE WITH AN APP CALLED Termux it requires a bit of a setup but it isnt super complex , idk if is possible on ios
-first run these commands in this order:
+IS POSSIBLE TO RUN ON YOUR ANDROID PHONE WITH AN APP CALLED Termux it requires a bit of a setup but it isnt super complex , idk if is possible on ios.
+First run these commands in this order:
 
-termux-setup-storage                    (give termux permission for local archives)             
-pkg update && pkg upgrade
-pkg install python tmux
-pkg install nano git
-pip install requests
-termux-wake-lock                        (for the app run in the background)
-tmux     
-cd /storage/emulated/0/Download         (folder where the script is, you can adapt depending where it is or put in download)
-python chopint.py                       (it should run the script)
+    termux-setup-storage                    (give termux permission for local archives)             
+    pkg update && pkg upgrade
+    pkg install python tmux
+    pkg install nano git
+    pip install requests
+    termux-wake-lock                        (for the app run in the background)
+    tmux     
+    cd /storage/emulated/0/Download         (folder where the script is, you can adapt depending where it is or put in download)
+    python chopint.py                       (it should run the script)
 
 TO STOP IT, PRESS CTRL and type C
   
