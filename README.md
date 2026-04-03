@@ -2,23 +2,32 @@ Chaster → OpenShock Bridge
 ==========================
 Polls the Chaster API for lock events and forwards them as 
 shock/vibrate/beep commands to the OpenShock API.
+
 Polls at random times in seconds between these values you can change for faster or slow behaviour:
+
 POLL_MIN = int()
+
 POLL_MAX = int()
 
 Requirements:
-    chaster developer privileges 
+
+    chaster developer privileges
+    
     python
+    
     pip install requests 
     
-
 Setup:
     Fill in this constants directly:
-    the constants require '' so the right way would look like this: 'dsghklfdkhdjknk'
-    CHASTER_TOKEN=''  'on the developer mode, need to create a aplication and within the aplication there a token menu
-    CHASTER_LOCK_ID=''  'just the part of the link where there a bunch of characterers like this '694b4784agfdgdhgjho545fgdg5'
-    OPENSHOCK_TOKEN=''  'go on openshock.app and generate a token on Api tokens
     
+    the constants require '' so the right way would look like this: 'dsghklfdkhdjknk'
+    
+    CHASTER_TOKEN=''  'on the developer mode, need to create a aplication and within the aplication there a token menu
+    
+    CHASTER_LOCK_ID=''  'just the part of the link where there a bunch of characterers like this '694b4784agfdgdhgjho545fgdg5'
+    
+    OPENSHOCK_TOKEN=''  'go on openshock.app and generate a token on Api tokens
+        
     'on shocker page, click the 3 dots in the shocker section, click edit and you can find the id, there 2 ways of inputing the first one supports only 1 collar, the second one each line supports 1 collar and you can add or remove extras in case you wanna multiples shockers working together'
     
 1   OPENSHOCK_SHOCKER_ID = ''
