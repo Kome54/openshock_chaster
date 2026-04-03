@@ -13,7 +13,7 @@ Requirements:
     pip install requests 
     
 Setup:
-    Fill in this constants directly:
+    Fill these constants directly:
     
     the constants require '' so the right way would look like this: 'dsghklfdkhdjknk'
     
