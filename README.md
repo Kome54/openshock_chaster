@@ -1,13 +1,8 @@
 Chaster → OpenShock Bridge
 ==========================
-Polls the Chaster API for lock events and forwards them as 
-shock/vibrate/beep commands to the OpenShock API.
 
-Polls at random times in seconds between these values, you can change for faster or slow behaviour:
-
-POLL_MIN = int()
-
-POLL_MAX = int()
+it works, values i made for myself so tweak them if you dont want strong shocks.
+Im not a developer so it isnt pretty code and i used a lot of ai help, disclosing in case the code looks weird,i dont mind forking out and someone else improving, this is most a proof of concept.
 
 Requirements:
 
