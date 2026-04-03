@@ -63,7 +63,7 @@ from datetime import datetime, timezone
 
 
 # ─────────────────────────────────────────────
-#  CONFIG  –  fill these in or use a .env file
+#  CONFIG  –  fill these in
 # ─────────────────────────────────────────────
 
 CHASTER_TOKEN=''
